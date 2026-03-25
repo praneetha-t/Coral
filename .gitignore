@@ -1,0 +1,41 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+Lib/
+Scripts/
+share/
+
+# Large model weight files (download separately)
+*.pt
+*.pth
+*.onnx
+
+# Dataset images (too large for git)
+dataset/
+dataset.zip
+*.zip
+
+# Results and temp outputs
+results/
+Test/
+output.txt
+env.txt
+env8.txt
+pip_list.txt
+pyenv.txt
+
+# VS Code settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Windows thumbnails
+Thumbs.db
+Desktop.ini
